@@ -56,7 +56,7 @@ namespace BowlingTests
         {
             int[] rolls = BowlingCalculator.ConvertToIntArray("[2,7], [1,5], [7,2], [9,0], [3,4], [4,4], [9,0], [8,1], [6,4], [6,4,2]");
             var score = BowlingCalculator.CalculateScore(rolls);
-            Assert.Equal(93, score.Item1);
+            Assert.Equal(94, score.Item1);
         }
     }
 }
